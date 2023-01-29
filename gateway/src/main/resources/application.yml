@@ -11,11 +11,7 @@ spring:
         - id: monolith
           uri: http://localhost:8081
           predicates:
-            - Path=/orders/**, 
-        - id: inventory
-          uri: http://localhost:8082
-          predicates:
-            - Path=/inventories/**, 
+            - Path=/orders/** 
         - id: frontend
           uri: http://localhost:8080
           predicates:
