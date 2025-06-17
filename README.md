@@ -1,6 +1,13 @@
 # Model
 ## docker-upload-250616
 
+## Docker 기본 컨테이너부터 Java 애플리케이션 도커라이징까지
+- Docker를 사용하여 Nginx 컨테이너 생성 및 포트 바인딩을 실습하고, Dockerfile로 커스텀 웹 이미지를 빌드하여 Docker Hub에 푸시했습니다.
+- 이어서 Spring Boot 애플리케이션(Inventory, Monolith)을 Docker 이미지로 만들어 컨테이너화하고, CI/CD 기반 배포의 기초 과정을 경험했습니다.
+
+Docker 실습 내용
+이 문서는 Docker의 기본적인 이미지/컨테이너 관리부터 Dockerfile을 이용한 커스텀 이미지 빌드, 그리고 실제 Java 애플리케이션을 Docker 컨테이너로 만드는 과정을 담고 있습니다.
+
 ![스크린샷 2025-06-16 110957](https://github.com/user-attachments/assets/e04c4730-1219-43e8-95a2-6356770d65f7)
 ![스크린샷 2025-06-16 111803](https://github.com/user-attachments/assets/73f3af65-ebaf-4b3b-ac3b-64cd1d4bfc8c)
 ![스크린샷 2025-06-16 114121](https://github.com/user-attachments/assets/73d72268-e417-4954-97aa-9d494f01fc8a)
@@ -17,13 +24,6 @@
 ![스크린샷 2025-06-16 121812](https://github.com/user-attachments/assets/034e64ea-7cae-4495-ab87-157f51861eca)
 ![스크린샷 2025-06-16 135223](https://github.com/user-attachments/assets/a0a6b1c7-d88e-4cb1-a860-144680ad112a)
 ![스크린샷 2025-06-16 135429](https://github.com/user-attachments/assets/8bf7f1ca-b943-4a27-b3f0-ea0137d5b70c)
-
-## Docker 기본 컨테이너부터 Java 애플리케이션 도커라이징까지
-- Docker를 사용하여 Nginx 컨테이너 생성 및 포트 바인딩을 실습하고, Dockerfile로 커스텀 웹 이미지를 빌드하여 Docker Hub에 푸시했습니다.
-- 이어서 Spring Boot 애플리케이션(Inventory, Monolith)을 Docker 이미지로 만들어 컨테이너화하고, CI/CD 기반 배포의 기초 과정을 경험했습니다.
-
-Docker 실습 내용
-이 문서는 Docker의 기본적인 이미지/컨테이너 관리부터 Dockerfile을 이용한 커스텀 이미지 빌드, 그리고 실제 Java 애플리케이션을 Docker 컨테이너로 만드는 과정을 담고 있습니다.
 
 실습 단계
 1. 이미지 기반 컨테이너 생성 및 확인
